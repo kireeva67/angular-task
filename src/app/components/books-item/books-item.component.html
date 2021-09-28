@@ -1,0 +1,16 @@
+<mat-card class="example-card">
+  <mat-card-title-group>
+    <mat-card-title>{{ book.title }}</mat-card-title>
+    <mat-card-subtitle>{{ book.year }}</mat-card-subtitle>
+    <img
+      class="card__image"
+      src="https://raw.githubusercontent.com/benoitvallon/100-best-books/master/static/{{
+        book.imageLink
+      }}"
+    />
+  </mat-card-title-group>
+  <mat-card-content
+    >Author: {{ book.author }} <br />
+    Pages: {{ book.pages }}
+  </mat-card-content>
+</mat-card>

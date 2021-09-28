@@ -1,0 +1,10 @@
+.example-card {
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.card__image {
+  width: 70px;
+}
