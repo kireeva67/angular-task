@@ -1,1 +1,16 @@
-<p>home works!</p>
+<div fxLayout="row" fxLayoutAlign="center">
+  <div class="element" routerLink="/tasks">
+    <h2>Game page</h2>
+    <p [ngStyle]="{ 'font-size': '21px', color: '#666', padding: '5px' }">
+      On this page you can test the strength of your intuition with a simple
+      game, where you have to guess which button works.
+    </p>
+  </div>
+  <div class="element" routerLink="/books">
+    <h2>Books page</h2>
+    <p [ngStyle]="{ 'font-size': '21px', color: '#666', padding: '5px' }">
+      On this page you can find a set of cards with books and choose one of
+      books to read.
+    </p>
+  </div>
+</div>

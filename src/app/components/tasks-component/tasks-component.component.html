@@ -1,1 +1,9 @@
-<p>tasks-component works!</p>
+<div fxLayout="row wrap" fxLayoutAlign="center">
+  <app-button
+    class="btn"
+    *ngFor="let button of buttons"
+    color="{{ button.color }}"
+    text="{{ button.text }}"
+    (click)="onClick(button.id)"
+  ></app-button>
+</div>

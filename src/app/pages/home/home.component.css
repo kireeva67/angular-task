@@ -1,0 +1,11 @@
+.element {
+  width: 400px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  line-height: 1.4;
+  cursor: pointer;
+}

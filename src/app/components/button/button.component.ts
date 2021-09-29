@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Button } from 'src/app/Button';
 
 @Component({
   selector: 'app-button',
@@ -11,4 +12,6 @@ export class ButtonComponent implements OnInit {
   ngOnInit(): void {}
 
   @Input() text!: string;
+  @Input() color!: string;
+  @Input() button!: Button;
 }
